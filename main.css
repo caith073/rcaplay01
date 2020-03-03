@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*logo*/
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+
+}
+
+
+/*navbar*/
+
+.navbar {
+    position: relative;
+    width: 100%;
+    background-color: #5176a6;
+}
+
+
+.btn {
+    font-weight: normal;
+    border-radius: 1px;
+    color: #fff;
+    background-color: #5176a6;
+    border-color: #5176a6;
+    outline-color: #5176a6;
+    position: relative;
+    
+}
+/*container*/
+
+.callout-container {
+    height: 100vh;
+    background: url("bgimage.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/*dropdown*/
+
+.dropdown-menu {
+    background-color: #d0d5d9;
+    padding: 0px;
+    margin: 0px;
+}
+.dropdown-item {
+    color: #000;
+}
+
+/*info-bar*/
+.info-bar {
+    height: 100px;
+    background-color: #7176a6;
+}
+/*callout-container2*/
+
+.callout-container2 {
+    height: 100vh;
+    background: url("bgimageS2.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
